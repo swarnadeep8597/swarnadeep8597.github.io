@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Hi! I’m Swarnadeep, a PhD Student the IRIT [Institut de Recherche en Informatique de Toulouse](https://www.irit.fr/en/home/). I am also associated with the in [ANITI](https://aniti.univ-toulouse.fr/en/).
+Hi! I’m Swarnadeep, a PhD Student the IRIT [Institut de Recherche en Informatique de Toulouse](https://www.irit.fr/en/home/). I am also associated with [ANITI](https://aniti.univ-toulouse.fr/en/).
 
 My work is on the social, cultural, political, and economic aspects of quantification, data science, automation, and AI. I have long focused on the role of AI in the governance and moderation of social media platforms and online communities, but I also care about issues like fairness, privacy, accountability, and labor in many application domains where AI is being deployed. Finally, I take the institutions of scientific and technological research as my object of study, asking how the disciplines and professions are changing around or by quantification, data science, automation, and AI. 
 
