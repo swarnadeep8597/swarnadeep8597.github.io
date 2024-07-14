@@ -10,6 +10,7 @@ redirect_from:
 {% include base_path %}
 
 Hi! I’m Swarnadeep, a PhD Student at IRIT [Institut de Recherche en Informatique de Toulouse](https://www.irit.fr/en/home/). I am also associated with [ANITI](https://aniti.univ-toulouse.fr/en/).
+
 I focus on the limits of language models, especially the big ones. I test how well they handle logical reasoning. I also work on collaborative conversations where users and designers team up to reach a goal. My approach involves boosting language models with external tools, using a setup similar to RAG.
 
 ## My work and research
