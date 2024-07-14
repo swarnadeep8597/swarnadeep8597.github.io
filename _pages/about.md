@@ -9,9 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-Hi! I’m Swarnadeep, a PhD Student the IRIT [Institut de Recherche en Informatique de Toulouse](https://www.irit.fr/en/home/). I am also associated with [ANITI](https://aniti.univ-toulouse.fr/en/).
-
-My work is on the social, cultural, political, and economic aspects of quantification, data science, automation, and AI. I have long focused on the role of AI in the governance and moderation of social media platforms and online communities, but I also care about issues like fairness, privacy, accountability, and labor in many application domains where AI is being deployed. Finally, I take the institutions of scientific and technological research as my object of study, asking how the disciplines and professions are changing around or by quantification, data science, automation, and AI. 
+Hi! I’m Swarnadeep, a PhD Student at IRIT [Institut de Recherche en Informatique de Toulouse](https://www.irit.fr/en/home/). I am also associated with [ANITI](https://aniti.univ-toulouse.fr/en/).
+I focus on the limits of language models, especially the big ones. I test how well they handle logical reasoning. I also work on collaborative conversations where users and designers team up to reach a goal. My approach involves boosting language models with external tools, using a setup similar to RAG.
 
 ## My work and research
 I am an interpretive social scientist trained as an ethnographer, with a broad background in the humanities --- but I have just enough expertise in computer science and data science to make trouble. I consider myself a methodological and disciplinary pluralist, as I draw from and contribute to many different academic disciplines. I use a broad range of qualitative, quantitative, and computational methods to holistically investigate the role of science and technology in our society, culture, politics, and economy. I have a particular focus on decentralized communities and institutions, such as open source software, scientific research, peer production platforms (like Wikipedia), and social media sites.
