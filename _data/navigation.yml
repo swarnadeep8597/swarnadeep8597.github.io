@@ -3,6 +3,8 @@ main:
   - title: "Publications"
     url: /articles/
 
+  - title: "Past Jobs"
+    url: /jobs/
   #- title: "Talks"
   #  url: /talks/    
     
