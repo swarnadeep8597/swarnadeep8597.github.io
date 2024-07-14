@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Swarnadeep's  Website"
+title                    : "Swarnadeep's Website"
 title_separator          : "-"
 name                     : &name "Swarnadeep Bhar"
 description              : &description "PhD Student at IRIT, Université Toulouse III - Paul Sabatier"
