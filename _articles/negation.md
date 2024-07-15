@@ -1,16 +1,32 @@
 ---
-title: "Limits of Negation"
+title: "Strong hallucinations from negation and how to fix them"
 category: articles
 permalink: /articles/2009-10-01-gnovis-habermas-understand-internet/
-venue: "Gnovis: A Journal of Communication, Culture, and Technology"
-excerpt: 'Habermasians have been debating about the role of the Internet in the public sphere, but they have all taken for granted the highly-automated software infrastructures that mediate our knowledge of the blogosphere.'
-date: 2009-10-01
-venue: 'Gnovis'
-citation: 'Geiger, R. Stuart (2009). “Does Habermas Understand the Internet? The Algorithmic Construction of the Blogo/Public Sphere.” Gnovis: A Journal of Communication, Culture, and Technology. 10(1).  http://www.stuartgeiger.com/papers/gnovis-habermas-blogopublic-sphere.pdf'
+venue: "Findings of ACL 2024"
+excerpt: 'Despite great performance on many tasks, language models (LMs) still struggle with reasoning, sometimes providing responses that cannot possibly be true because they stem from logical incoherence. We call such responses \textit{strong hallucinations} and prove that they follow from an LM's computation of its internal representations for logical operators and outputs from those representations'
+date: 2024-08-17
+#venue: 'Gnovis'
+citation: '@misc{asher2024stronghallucinationsnegationfix,
+      title={Strong hallucinations from negation and how to fix them}, 
+      author={Nicholas Asher and Swarnadeep Bhar},
+      year={2024},
+      eprint={2402.10543},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2402.10543}, 
+}'
 ---
 
-<a href='http://www.stuartgeiger.com/papers/gnovis-habermas-blogopublic-sphere.pdf'>Download PDF here</a>
+<a href='https://swarnadeep8597.github.io/papers/Why_large_language_models_hallucinate.pdf'>Download PDF here</a>
 
-Abstract: Habermasians have been debating about the role of the Internet in the public sphere, but they have all taken for granted the highly-automated software infrastructures that mediate our knowledge of the blogosphere.
+Abstract: Despite great performance on many tasks, language models (LMs) still struggle with reasoning, sometimes providing responses that cannot possibly be true because they stem from logical incoherence. We call such responses \textit{strong hallucinations} and prove that they follow from an LM's computation of its internal representations for logical operators and outputs from those representations. Focusing on negation, we provide a novel solution in which negation is treated not as another element of a latent representation, but as \textit{an operation over an LM's latent representations that constrains how they may evolve}. We show that our approach improves model performance in cloze prompting and natural language inference tasks with negation without requiring training on sparse negative data.
 
- Recommended citation: Geiger, R. Stuart (2009). “Does Habermas Understand the Internet? The Algorithmic Construction of the Blogo/Public Sphere.” Gnovis: A Journal of Communication, Culture, and Technology. 10(1).  http://www.stuartgeiger.com/papers/gnovis-habermas-blogopublic-sphere.pdf
+ Recommended citation: @misc{asher2024stronghallucinationsnegationfix,
+      title={Strong hallucinations from negation and how to fix them}, 
+      author={Nicholas Asher and Swarnadeep Bhar},
+      year={2024},
+      eprint={2402.10543},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2402.10543}, 
+}
