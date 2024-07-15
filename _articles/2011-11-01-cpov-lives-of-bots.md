@@ -1,5 +1,5 @@
 ---
-title: "The Lives of Bots"
+title: "Negation The Lives of Bots"
 category: articles
 permalink: /articles/2011-11-01-cpov-lives-of-bots/ 
 venue: "Wikipedia: A Critical Point of View, ed. G. Lovink and n. Tkacz. Amsterdam: Institute of Network Cultures."
