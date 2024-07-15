@@ -5,7 +5,7 @@ permalink: /articles/negation/
 venue: "Findings of ACL 2024"
 excerpt: 'Despite great performance on many tasks, language models (LMs) still struggle with reasoning, sometimes providing responses that cannot possibly be true because they stem from logical incoherence. We call such responses strong hallucinations and prove that they follow from an LM's computation of its internal representations for logical operators and outputs from those representations'
 date: 2024-08-17
-#venue: 'Gnovis'
+venue: 'Findings of ACL 2024'
 citation: '@misc{asher2024stronghallucinationsnegationfix,
       title={Strong hallucinations from negation and how to fix them}, 
       author={Nicholas Asher and Swarnadeep Bhar},
