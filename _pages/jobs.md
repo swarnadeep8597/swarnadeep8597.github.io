@@ -109,12 +109,12 @@ here for that pointer in timeline.-->
                    <div class="timeline-circle"></div>
                </div>
                <div class="timeline-component timeline-content">
-                <h3>HTML</h3>
-                <p>Some Text</p>
+                <h3>Temenos India</h3>
+                <p>2020-2022</p>
            </div>
                 <div class="timeline-component timeline-content">
-                         <h3>CSS</h3>
-                         <p>Some Text.</p>
+                         <h3>Phd Student at IRIT</h3>
+                         <p>2022-2025</p>
                 </div>
                 <div class="timeline-middle">
                     <div class="timeline-circle"></div>
@@ -128,10 +128,7 @@ here for that pointer in timeline.-->
                <div class="timeline-middle">
                    <div class="timeline-circle"></div>
                </div>
-               <div class=" timeline-component timeline-content">
-                <h3>Javascript</h3>
-                <p>Some Text.</p>
-           </div>
+
 
        </div>
     
