@@ -12,12 +12,13 @@ redirect_from:
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
+
 .design-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #1f1f1f;
+  background-color: #ffffff; /* Changed background color to white */
   min-height: 100vh;
   padding: 100px 0;
   font-family: Jost;
@@ -40,11 +41,11 @@ redirect_from:
 
 .timeline-content {
   padding: 20px;
-  background: #1f1f1f;
-  -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
-          box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+  background: #ffffff; /* Changed background color to white */
+  -webkit-box-shadow: 5px 5px 10px #d3d3d3, -5px -5px 10px #ffffff;
+          box-shadow: 5px 5px 10px #d3d3d3, -5px -5px 10px #ffffff;
   border-radius: 5px;
-  color: white;
+  color: black; /* Changed text color to black */
   padding: 1.75rem;
   transition: 0.4s ease;
   overflow-wrap: break-word !important;
@@ -83,6 +84,7 @@ redirect_from:
             transform: translateX(-50%);
   }
 }
+
 </style>
 
 
