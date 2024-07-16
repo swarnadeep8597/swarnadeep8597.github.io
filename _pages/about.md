@@ -27,6 +27,6 @@ Most of my published work has focused on the limitations of language models and 
 I received my Msc. in Computer Science from the [Chennai Mathematical Institute](https://www.cmi.ac.in/) and my BSc. in [Computer Science](https://vidyamandira.ac.in/department/computerscience/) at the Ramakrishna Mission Vidyamandira,Belur Math.
 I have done my schooling from [Don Bosco Bandel](https://www.dbbandel.org/).
 
-## Miscellenous
+## Miscellaneous
 I’m a huge fan of comics and superhero movies. I devour both fiction and non-fiction books, with a special interest in colonial history and the WWII era. Besides that, I’m a die-hard Madridista (for those who don’t know, that means I’m a big Real Madrid supporter).
 
