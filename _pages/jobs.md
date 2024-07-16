@@ -12,90 +12,125 @@ redirect_from:
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
-
-body {
-    font-family: 'Jost', sans-serif;
-    background-color: #f0f0f0;
+.design-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f1f1f;
+  min-height: 100vh;
+  padding: 100px 0;
+  font-family: Jost;
 }
 
-.design-section {
-    width: 80%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+.design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .timeline {
-    display: flex;
-    flex-direction: column;
-    position: relative;
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
-.timeline-empty {
-    height: 50px;
-}
-
-.timeline-middle {
-    position: relative;
-    width: 20px;
-    flex-shrink: 0;
-}
-
-.timeline-circle {
-    width: 20px;
-    height: 20px;
-    background-color: #3498db;
-    border-radius: 50%;
-    position: absolute;
-    left: -10px;
-    top: 0;
+.timeline-content {
+  padding: 20px;
+  background: #1f1f1f;
+  -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+          box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+  border-radius: 5px;
+  color: white;
+  padding: 1.75rem;
+  transition: 0.4s ease;
+  overflow-wrap: break-word !important;
+  margin: 1rem;
+  margin-bottom: 20px;
+  border-radius: 6px;
 }
 
 .timeline-component {
-    padding: 20px;
-    border-left: 2px solid #3498db;
-    margin-bottom: 20px;
+  margin: 0px 20px 20px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+  }
+  .timeline-middle {
     position: relative;
-}
-
-.timeline-component::before {
-    content: "";
+    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+    width: 3px;
+    height: 100%;
+  }
+  .main-middle {
+    opacity: 0;
+  }
+  .timeline-circle {
     position: absolute;
-    left: -10px;
-    top: 20px;
-    width: 20px;
-    height: 20px;
-    background-color: #3498db;
+    top: 0;
+    left: 50%;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
-}
-
-.timeline-content h3 {
-    margin: 0;
-    font-size: 1.5em;
-    color: #333;
-}
-
-.timeline-content p {
-    margin: 0;
-    font-size: 1em;
-    color: #666;
+    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
 }
 </style>
 
+
+<style>@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');</style>
+<!--This is the main container that contains the whole timeline.-->
 <section class="design-section">
-    <div class="timeline">
-        {% for item in site.data.timeline %}
-        <div class="timeline-empty"></div>
-        <div class="timeline-middle">
-            <div class="timeline-circle"></div>
-        </div>
-        <div class="timeline-component timeline-content">
-            <h3>{{ item.title }}</h3>
-            <p>{{ item.description }}</p>
-        </div>
-        {% endfor %}
-    </div>
+<div class="timeline">
+
+          <!--Well, The reason for this div is to fill space. 
+This space is technically used for keeping dates, 
+but I didn't find the need for dates. However, I'll provide 
+you the styling for dates, so that you can use it if you 
+wanted to.-->
+                  <div class="timeline-empty">
+                  </div>
+
+<!--This is the class where the timeline graphics are 
+housed in. Note that we have timeline-circle 
+here for that pointer in timeline.-->
+
+               <div class="timeline-middle">
+                   <div class="timeline-circle"></div>
+               </div>
+               <div class="timeline-component timeline-content">
+                <h3>HTML</h3>
+                <p>Some Text</p>
+           </div>
+                <div class="timeline-component timeline-content">
+                         <h3>CSS</h3>
+                         <p>Some Text.</p>
+                </div>
+                <div class="timeline-middle">
+                    <div class="timeline-circle"></div>
+                </div>
+                <div class="timeline-empty">
+                </div>
+
+                <div class="timeline-empty">
+                </div>
+
+               <div class="timeline-middle">
+                   <div class="timeline-circle"></div>
+               </div>
+               <div class=" timeline-component timeline-content">
+                <h3>Javascript</h3>
+                <p>Some Text.</p>
+           </div>
+
+       </div>
+    </div> 
 </section>
