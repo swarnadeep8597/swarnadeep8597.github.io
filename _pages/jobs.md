@@ -18,10 +18,11 @@ redirect_from:
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #ffffff; /* Changed background color to white */
+  background-color: #1f1f1f;
   min-height: 100vh;
   padding: 100px 0;
   font-family: Jost;
+  margin-top: -50px; /* Move the entire section up by 50px */
 }
 
 .design {
@@ -34,24 +35,25 @@ redirect_from:
   width: 80%;
   height: auto;
   max-width: 800px;
-  margin: 0 auto;
+  margin: -20px auto 0 auto; /* Move the timeline up by 20px */
   display: flex;
   flex-direction: column;
 }
 
 .timeline-content {
   padding: 20px;
-  background: #ffffff; /* Changed background color to white */
-  -webkit-box-shadow: 5px 5px 10px #d3d3d3, -5px -5px 10px #ffffff;
-          box-shadow: 5px 5px 10px #d3d3d3, -5px -5px 10px #ffffff;
+  background: #1f1f1f;
+  -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+          box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
   border-radius: 5px;
-  color: black; /* Changed text color to black */
+  color: white;
   padding: 1.75rem;
   transition: 0.4s ease;
   overflow-wrap: break-word !important;
   margin: 1rem;
   margin-bottom: 20px;
   border-radius: 6px;
+  margin-top: -10px; /* Move each timeline content up by 10px */
 }
 
 .timeline-component {
@@ -84,52 +86,4 @@ redirect_from:
             transform: translateX(-50%);
   }
 }
-
 </style>
-
-
-<style>@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');</style>
-<!--This is the main container that contains the whole timeline.-->
-<section class="design-section">
-<div class="timeline">
-
-          <!--Well, The reason for this div is to fill space. 
-This space is technically used for keeping dates, 
-but I didn't find the need for dates. However, I'll provide 
-you the styling for dates, so that you can use it if you 
-wanted to.-->
-                  <div class="timeline-empty">
-                  </div>
-
-<!--This is the class where the timeline graphics are 
-housed in. Note that we have timeline-circle 
-here for that pointer in timeline.-->
-
-               <div class="timeline-middle">
-                   <div class="timeline-circle"></div>
-               </div>
-               <div class="timeline-component timeline-content">
-                <h3>Temenos India</h3>
-                <p>2020-2022</p>
-           </div>
-                <div class="timeline-component timeline-content">
-                         <h3>Phd Student at IRIT</h3>
-                         <p>2022-2025</p>
-                </div>
-                <div class="timeline-middle">
-                    <div class="timeline-circle"></div>
-                </div>
-                <div class="timeline-empty">
-                </div>
-
-                <div class="timeline-empty">
-                </div>
-
-               <div class="timeline-middle">
-                   <div class="timeline-circle"></div>
-               </div>
-
-
-       </div>
-    
-</section>
