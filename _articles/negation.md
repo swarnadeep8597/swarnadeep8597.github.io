@@ -5,7 +5,7 @@ permalink: /articles/negation/
 venue: "Findings of ACL 2024"
 excerpt: 'Despite great performance on many tasks, language models (LMs) still struggle with reasoning, sometimes providing responses that cannot possibly be true because they stem from logical incoherence. We call such responses strong hallucinations and prove that they follow from its computation of its internal representations for logical operators and outputs from those representations'
 date: 2024-08-17
-citation: 'Asher, Nicholas, and Swarnadeep Bhar. "Strong hallucinations from negation and how to fix them." arXiv preprint arXiv:2402.10543 (2024).'
+citation: 'Asher, Nicholas, and **Swarnadeep Bhar**. "Strong hallucinations from negation and how to fix them." arXiv preprint arXiv:2402.10543 (2024).'
 ---
 <a href='https://swarnadeep8597.github.io/papers/Why_large_language_models_hallucinate.pdf'>Download PDF here</a>
 
