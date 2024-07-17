@@ -5,7 +5,7 @@ permalink: /articles/semantic_faithfulness/
 venue: "Computational Linguistics"
 excerpt: 'Transformer-based language models have been shown to be highly effective for several NLP tasks. In this article, we consider three transformer models, BERT, RoBERTa, and XLNet, in both small and large versions, and investigate how faithful their representations are with respect to the semantic content of texts. We formalize a notion of semantic faithfulness, in which the semantic content of a text should causally figure in a model’s inferences in question answering'
 date: 2024-03-01
-citation: 'Chaturvedi, A., **Bhar, S.**, Saha, S., Garain, U., & Asher, N. (2024). Analyzing Semantic Faithfulness of Language Models via Input Intervention on Question Answering. Computational Linguistics, 50(1), 119-155.'
+citation: 'Chaturvedi, A., Bhar, S., Saha, S., Garain, U., & Asher, N. (2024). Analyzing Semantic Faithfulness of Language Models via Input Intervention on Question Answering. Computational Linguistics, 50(1), 119-155.'
 ---
 <a href='https://swarnadeep8597.github.io/papers/sem_faith.pdf'>Download PDF here</a>
 
