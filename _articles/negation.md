@@ -1,5 +1,6 @@
 ---
 title: "Strong hallucinations from negation and how to fix them"
+author: Nicholas Asher and Swarnadeep Bhar
 category: articles
 permalink: /articles/negation/
 venue: "Findings of ACL 2024"
