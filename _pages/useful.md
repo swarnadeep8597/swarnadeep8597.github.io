@@ -9,3 +9,5 @@ Here are some links to resources which I think might be relevant for someone wor
 * Philosophy Cheatsheet: [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/index.html)
 * Pytorch Coding Playlist: [Pytorch Tutorial](https://youtube.com/playlist?list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&feature=shared)
 * Transformer Tutorial: [Long Live Transformers](https://youtu.be/S27pHKBEp30?feature=shared)
+* Neovim Setup Course: [Neovim 0 to IDE](https://www.youtube.com/watch?v=zHTeCSVAFNY&list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn)
+
